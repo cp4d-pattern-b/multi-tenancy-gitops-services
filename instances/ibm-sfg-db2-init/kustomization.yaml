@@ -1,5 +1,9 @@
 resources:
-  - ./db2.yaml
+  - ./project.yaml
+  - ./pvc.yaml
+  - ./sa.yaml
+  - ./service.yaml
+  - ./statefulset.yaml
 
 generatorOptions:
   disableNameSuffixHash: true
