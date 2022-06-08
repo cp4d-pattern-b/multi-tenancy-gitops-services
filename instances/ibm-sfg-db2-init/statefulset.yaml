@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: StatefulSet
 metadata:
   name: analytics-db2
-  namespace: db2
+  namespace: services
   labels:
     app: analytics-db2
 spec:
