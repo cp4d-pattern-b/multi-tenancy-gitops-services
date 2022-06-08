@@ -1,5 +1,5 @@
 resources:
-  - ./project.yaml
+#  - ./project.yaml
   - ./pvc.yaml
   - ./sa.yaml
   - ./service.yaml

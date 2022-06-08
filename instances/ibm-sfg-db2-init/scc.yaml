@@ -13,7 +13,7 @@ seLinuxContext:
 supplementalGroups:
   type: RunAsAny
 users:
-- system:serviceaccount:db2:db2-service-account
+- system:serviceaccount:services:db2-service-account
 volumes:
 - configMap
 - downwardAPI
