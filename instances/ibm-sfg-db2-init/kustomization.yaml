@@ -4,6 +4,7 @@ resources:
   - ./sa.yaml
   - ./service.yaml
   - ./statefulset.yaml
+  - ./scc.yaml
 
 generatorOptions:
   disableNameSuffixHash: true
