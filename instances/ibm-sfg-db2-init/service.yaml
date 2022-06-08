@@ -2,7 +2,6 @@ apiVersion: v1
 kind: Service
 metadata:
   name: analytics-db2
-  namespace: services
   labels:
     app: analytics-db2
 spec:
